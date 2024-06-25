@@ -1,5 +1,5 @@
 :root {
-  --contact-color: #6c63ff;
+  --brand-color: #6c63ff;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -55,7 +55,25 @@ p {
   font-size: 24px;
 }
 
-.btn-contact {
+.about-page {
+  padding: 160px 20px;
+}
+
+.about-page h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-page h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-page-content {
+  margin: 30px;
+}
+
+.btn-brand {
   background: var(--contact-color);
   border-radius: 4px;
   color: white;
@@ -64,7 +82,7 @@ p {
   padding: 15px 30px;
 }
 
-.btn-contact-outline {
+.btn-brand-outline {
   color: var(--contact-color);
   border: 1px solid var(--contact-color);
   border-radius: 4px;
@@ -80,7 +98,7 @@ p {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 56px;
   }
 
   h2 {
@@ -89,6 +107,11 @@ p {
 
   .introduction {
     padding: 80px 20px;
+  }
+
+  .about-page {
+    text-align: center;
+    padding: 0;
   }
 
   .project-desciption {
