@@ -74,7 +74,7 @@ p {
 }
 
 .btn-brand {
-  background: var(--contact-color);
+  background: var(--brand-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -83,8 +83,8 @@ p {
 }
 
 .btn-brand-outline {
-  color: var(--contact-color);
-  border: 1px solid var(--contact-color);
+  color: var(--brand-color);
+  border: 1px solid var(--brand-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
