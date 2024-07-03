@@ -29,7 +29,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -60,7 +60,7 @@ p {
 }
 
 .content-page {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content-page h1 {
@@ -76,6 +76,9 @@ p {
   font-size: 24px;
   line-height: 1.5;
   font-family: var(--default-font-family);
+}
+.content-page p {
+  font-size: 14px;
 }
 
 .content {
@@ -184,7 +187,7 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
   }
 
