@@ -25,9 +25,43 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/styles/portfolio.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Information about Mashudu. Mashudu is an aspiring front-end developer based in South Africa. "
+    />
+    <title>About Mashudu - Mashudu Tshifura</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Mashudu Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Mashudu Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Mashudu"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Mashudu's work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Mashudu"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-page container">
       <div class="row">
         <div class="col-lg-6">
@@ -37,12 +71,11 @@
               Aspiring Frontend Developer, based in South Africa.
             </h2>
             <p class="mb-5">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained, homework and deadlines are good for
-              keeping you focused.
+              I’m currently seeking new opportunities in front-end development.
+              I’m open to work remotely and have flexible hours. I’m highly
+              skilled in JavaScript and React.
             </p>
-            <a href="" class="btn btn-brand">See my projects</a>
+            <a href="/work.html" class="btn btn-brand">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -50,5 +83,63 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Enquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-brand mt-3"
+            title="Contact Mashudu"
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:mashudu@gmail.com"
+          class="email-link"
+          title="Email Mashudu"
+        >
+          mashudu@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.github.com/mashudutshifura"
+          target="_blank"
+          title="Github profile"
+        >
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/mashudu"
+          target="_blank"
+          title="Linkedin profile"
+        >
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.twitter.com/mashudu"
+          target="_blank"
+          title="Twitter profile"
+        >
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        ✌️ This website was coded by Mashudu Tshifura, and is
+        <a
+          href="https://github.com/mashudutshifura/portfolio-project-responsive"
+          target="_blank"
+        >
+          open-sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
